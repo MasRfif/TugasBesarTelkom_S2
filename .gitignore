@@ -1,0 +1,81 @@
+```gitignore
+# ==========================================
+# THE VILLAGE - GITIGNORE
+# React + Vite + PHP Native MVC + MySQL
+# ==========================================
+
+# Frontend dependencies
+UI/node_modules/
+node_modules/
+
+# Build React
+UI/dist/
+dist/
+
+# Vite cache
+UI/.vite/
+.vite/
+*.tsbuildinfo
+
+# Environment dan kredensial
+.env
+.env.*
+!.env.example
+
+server/config/database.php
+server/config/database.local.php
+server/config/database.production.php
+
+# File upload pengguna
+server/public/uploads/events/*
+!server/public/uploads/events/.gitkeep
+
+server/public/uploads/users/*
+!server/public/uploads/users/.gitkeep
+
+server/public/uploads/temp/*
+!server/public/uploads/temp/.gitkeep
+
+# Database backup
+# File server/database/the_village.sql tetap masuk GitHub
+server/database/backups/
+server/database/*.bak.sql
+server/database/*.backup.sql
+server/database/*-backup.sql
+server/database/*_backup.sql
+
+# Log dan cache
+*.log
+logs/
+cache/
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+.nyc_output/
+
+# Editor
+.vscode/
+.idea/
+*.iml
+.project
+.settings/
+.classpath
+nbproject/private/
+
+# Sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File arsip
+*.zip
+*.rar
+*.7z
+```

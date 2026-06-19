@@ -2,9 +2,6 @@
 $uri    = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $method = $_SERVER['REQUEST_METHOD'];
 
-// Bisa dipakai dari:
-// 1. http://localhost/TheVillage/server/public/...
-// 2. http://localhost/api/... lewat proxy Vite
 $uri = preg_replace('#^/TheVillage/server/public#', '', $uri);
 $uri = preg_replace('#^/api#', '', $uri);
 $uri = rtrim($uri, '/') ?: '/';
