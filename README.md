@@ -27,9 +27,6 @@
 <a href="https://thevillage.sisteminformasikotacerdas.id">
   <img src="https://img.shields.io/badge/Buka%20Website-16A34A?style=for-the-badge&logo=googlechrome&logoColor=FFFFFF" alt="Website"/>
 </a>
-<a href="#-cara-menjalankan">
-  <img src="https://img.shields.io/badge/Jalankan%20Lokal-0F766E?style=for-the-badge&logo=windows&logoColor=FFFFFF" alt="Local Setup"/>
-</a>
 <a href="#-dokumentasi-api">
   <img src="https://img.shields.io/badge/Dokumentasi%20API-0F172A?style=for-the-badge&logo=postman&logoColor=FFFFFF" alt="API Documentation"/>
 </a>
