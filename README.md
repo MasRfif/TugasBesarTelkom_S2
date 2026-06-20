@@ -2,7 +2,7 @@
 
 <img
   width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:2A1000,25:4A2815,50:603D24,75:B98260,100:F4D2BC&height=230&section=header&text=THE%20VILLAGE&fontSize=54&fontColor=FFFFFF&fontAlignY=36&desc=Sistem%20Informasi%20Acara%20Desa%20Pintar&descSize=19&descAlignY=58&animation=fadeIn"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:16A34A,50:0F766E,100:0F172A&height=230&section=header&text=THE%20VILLAGE&fontFamily=Plus%20Jakarta%20Sans&fontSize=54&fontColor=FFFFFF&fontAlignY=36&desc=Sistem%20Informasi%20Acara%20Desa%20Pintar&descSize=19&descAlignY=58&animation=fadeIn"
   alt="The Village Banner"
 />
 
